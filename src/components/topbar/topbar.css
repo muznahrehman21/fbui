@@ -1,0 +1,40 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2 ;
+    display: flex;
+    align-items: center;
+    position: sticky ;
+    top: 0;
+}
+.topbarLeft{
+    flex: 3;
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.topbarCenter{
+    flex: 5;
+    }
+.searchBar{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin: 10px;
+}
+
+.topbarRight{
+    flex: 4;
+}

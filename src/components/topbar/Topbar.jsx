@@ -9,8 +9,8 @@ function Topbar() {
           <span className='logo'>FBUI </span>
         </div>
         <div className="topbarCenter">
-          <div className="searhbar">
-            <Search />
+          <div className="searchBar">
+            <Search  className='searchIcon'/>
             <input placeholder='Search' className='searchInput' />
           </div>
         </div>
