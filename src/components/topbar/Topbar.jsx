@@ -37,7 +37,7 @@ function Topbar() {
             </div>
 
           </div>
-          <img src="" alt="pic" />
+          
         </div>
       </div>
     </>
