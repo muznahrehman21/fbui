@@ -6,7 +6,7 @@ function Topbar() {
     <>
       <div className='topbarContainer'>
         <div className="topbarLeft">
-          <span className='logo'>FBUI </span>
+          <span className='logo'>App </span>
         </div>
         <div className="topbarCenter">
           <div className="searchBar">
