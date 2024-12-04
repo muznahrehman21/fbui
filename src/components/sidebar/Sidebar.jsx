@@ -2,9 +2,11 @@ import React from 'react'
 import "./sidebar.css"
 
 function Sidebar() {
-  return (
-    <div>Sidebar</div>
-  )
+    return (
+        <div className="sidebar">
+            Sidebar
+        </div>
+    )
 }
 
 export default Sidebar

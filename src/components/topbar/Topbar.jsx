@@ -4,7 +4,7 @@ import { Search, Person, Chat, Notifications } from "@mui/icons-material"
 function Topbar() {
   return (
     <>
-      <div className='topbarContainer'>
+      <div className="topbarContainer">
         <div className="topbarLeft">
           <span className='logo'>App </span>
         </div>
