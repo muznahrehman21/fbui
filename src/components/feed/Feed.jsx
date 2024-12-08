@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import './feed.css';
 import { likePost } from '../../features/feeds/feedSlice';
 import { useDispatch, useSelector } from 'react-redux';
@@ -33,12 +33,13 @@ function Feed() {
           <div className="post-content">{post.content}</div>
           <img src={post.image} alt="Post" className="post-image" />
           <div className="post-footer">
-            <span>{post.likes} Likes</span>
+            <span>{post.liked? 1:0} Like</span>
             <button
               onClick={() => likeFunction(post.id)}
-              className="like-button"
+              className={"like-button ${post.liked? 'liked':''}"}
             >
               <ThumbUpIcon />
+              
             </button>
           </div>
         </div>

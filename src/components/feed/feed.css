@@ -48,14 +48,18 @@
   
   .like-button {
     padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
     border-radius: 5px;
     cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
   }
+  .like-button.liked {
+  background-color: #007bff; /* Light blue background when liked */
+  }
+ 
   
   .like-button:hover {
-    background-color: #0056b3;
+    background-color: blue; /* Slightly darker on hover */
   }
-  
