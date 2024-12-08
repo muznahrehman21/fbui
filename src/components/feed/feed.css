@@ -53,7 +53,7 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     cursor: pointer;
-    transition: color 0.3s ease, background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
   .like-button.liked {
   background-color: #007bff; /* Light blue background when liked */
